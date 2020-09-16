@@ -1,0 +1,117 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ebded9;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.profilePic{
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    left: -190px;
+}
+.headerText{
+    position: relative;
+    top: 55px;
+}
+.contactHome{
+    transform-origin: top right;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    
+}
+.backgroundColor{
+    background: linear-gradient(to bottom, #2a9df4, #043b7a);
+    position: relative; 
+    width: 100%;
+    height: 185px;
+}
+.aboutMe{
+    background: linear-gradient(to top, #2a9df4, #043b7a);
+    font-size: 20px;
+    border-radius: 5%;
+    position: relative;
+    top: 20px;
+}
+.bestProject{
+    background: linear-gradient(to top, #2a9df4, #043b7a);
+    font-size: 20px;
+    border-radius: 5%;
+    position: relative;
+    top: 20px;
+    
+}
+/* .myBestProjectBlock{
+    background: linear-gradient(to top, #2a9df4, #03254c); 
+    background: #187bcd;
+    border-radius: 7%;
+    margin: auto;
+    width: 97%;
+} */
+.projectPic{
+    border-radius: 30%;
+    height: 300px;
+    width: 550px;
+    position: relative;
+}
+/* .buttonAllProjects{
+    background-color: #187bcd;
+    border: none;
+    outline: none;
+    border-radius: 30%;
+    font-size: 15px;
+    padding: 16px 10px;
+    cursor: pointer;
+
+} */
+/* @media screen and (max-width: 1000px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+} */
+
+/* .row:after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+@media screen and (min-width: 1000px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+}
+
+.grid-item{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    border-radius: 5%;
+    
+}
+
+.gradientLightDark{
+    background: linear-gradient(to bottom, #2a9df4, #043b7a);
+}
+.gradientDarkLight{
+    background: linear-gradient(to top, #2a9df4, #043b7a);
+}
+
+.project{
+    font-size: 20px;
+    border-radius: 5%;
+    position: relative;
+    text-align: center;
+    max-height: 500px;
+}
